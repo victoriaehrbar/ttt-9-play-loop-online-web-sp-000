@@ -8,7 +8,7 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 # Make sure to execute #play below
-def play(board)
+play(board)
 counter = 0
   loop do
     counter = counter + 1
@@ -17,4 +17,3 @@ counter = 0
       break
     end
   end
-end
