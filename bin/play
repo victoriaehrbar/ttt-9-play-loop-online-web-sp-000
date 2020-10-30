@@ -14,6 +14,5 @@ play(board)
     counter = counter + 1
     puts "turn"
     while counter >= 9
-      break
     end
   end
