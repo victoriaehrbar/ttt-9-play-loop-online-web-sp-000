@@ -13,7 +13,7 @@ play(board)
     counter = 0
     counter = counter + 1
     puts "turn"
-    if counter >= 9
+    while counter >= 9
       break
     end
   end
