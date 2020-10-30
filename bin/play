@@ -9,8 +9,8 @@ display_board(board)
 
 # Make sure to execute #play below
 play(board)
-counter = 0
   loop do
+    counter = 0
     counter = counter + 1
     puts "turn"
     if counter >= 9
